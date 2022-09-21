@@ -49,7 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:background="#407C76"
+        android:background="@color/custom_color"
         android:text="Guardar"
         app:icon="@android:drawable/checkbox_off_background"
         app:layout_constraintBottom_toBottomOf="parent"
