@@ -79,9 +79,28 @@
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintHorizontal_bias="0.685"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.313" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="419dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="177dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/custom_string"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

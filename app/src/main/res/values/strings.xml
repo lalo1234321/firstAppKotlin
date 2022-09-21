@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Test app</string>
+    <string name="custom_string">Este texto viene desde el archivo de strings de resources</string>
 </resources>
